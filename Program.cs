@@ -57,7 +57,7 @@ public class NameTest
 {
     static void Main()
     {
-        Name myName = new Name("Michael", "Mason", "McMillan");
+        Name myName = new Name("Dear","Zeki", "Gungor" );
         string fullName, inits;
         fullName = myName.ToString();
         inits = myName.Initials();
